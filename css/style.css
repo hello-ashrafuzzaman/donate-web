@@ -1,0 +1,327 @@
+body{
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.banner_design{
+    background: url(../image/updatebanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 260px 260px;
+    color: #fff;
+    margin-bottom: 110px;
+
+}
+
+.banner_container {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner_container h1{
+font-size: 100px;
+
+}
+
+.banner_container p {
+    font-size: 25px;
+
+}
+
+.donate_button{
+    padding: 20px 21px;
+    border-radius: 5px;
+    background-color: #F15412;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    font-size: 25px ;
+    margin-top: 30px;
+    
+}
+
+
+/* Donate Taka start */
+.donate_today{
+    margin-bottom: 100px;
+}
+.donate_container{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate_container h1{
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .donate_container p {
+    padding-bottom: 50px;
+} 
+
+.takabox{
+ display: flex;
+ margin-bottom: 50px;
+ text-align: center;
+ padding: 0 160px;
+
+ 
+}
+
+.handedbox1{
+    height: 160px;
+    width: 180px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.handedbox2 {
+    height: 160px;
+    width: 180px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.handedbox3 {
+    height: 160px;
+    width: 180px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.handedbox4 {
+    height: 160px;
+    width: 180px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.handedbox5 {
+    height: 160px;
+    width: 180px;
+    background-color: #ffeee7;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F15412;
+    margin: 10px;
+}
+
+.takatext{
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    color: rgb(107, 106, 106);
+    font-weight: 900;
+    padding: 50px 30px;
+    font-size: 40px;
+}
+
+.takatext1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(107, 106, 106);
+    font-weight: 900;
+    padding: 50px 10px;
+    font-size: 40px;
+}
+
+.takatext5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #F15412;
+    font-weight: 900;
+    padding: 50px 10px;
+    font-size: 40px;
+}
+
+input{
+    margin-left: 12.5%;
+    width: 75%;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+}
+
+
+
+
+/* plan start */
+.donate_plan{
+    margin-bottom: 100px;
+}
+.plan_container{
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+.plan_container h1{
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+.plan_container p{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.planbox{
+    display: flex;
+}
+
+.food_plan{
+background-color: #b6d2ff;
+height: 450px;
+width: 450px;
+border-radius: 5px;
+margin: 10px;
+padding: 100px 12px;
+}
+
+.family_plan{
+background-color: #ffdcd5;
+height: 450px;
+width: 450px;
+border-radius: 5px;
+margin: 10px;
+padding: 100px 12px;
+}
+
+.education_plan{
+background-color: #e0ffda;
+height: 450px;
+width: 450px;
+border-radius: 5px;
+margin: 10px;
+padding: 100px 12px;
+}
+
+.plantext_sizeh3{
+    text-align: left !important;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.plantext_size{
+    text-align: justify !important;
+    padding-bottom: 25px;
+
+}
+
+.planimg_align{
+    padding-bottom: 25px;
+}
+
+
+/* ============get subscribe================= */
+
+.subscribemain{
+    width: 100%;
+    padding: 100px;
+    background-color: #EEEBDD;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.banner_container1{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input_sub{
+background-color: #b6d2ff;
+width: 600px;
+height: 45px;
+border-radius: 5px;
+position: relative;
+
+}
+
+.subscrib_but{
+background-color: #F15412;
+width: 180px;
+height: 45px;
+border-radius: 5px;
+position: absolute;
+right: 0;
+}
+
+.type_nd{
+background-color: #b6d2ff;
+height: 40px;
+position: absolute;
+left: 0;
+box-sizing: border-box;
+border: 2px solid #b6d2ff;
+font-size: 30px;
+text-align: left;
+
+}
+
+.subscribe_btn_s{
+   
+    border-radius: 5px;
+    background-color: #F15412;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+    
+.banner_container1 h2{
+font-size: 40px;
+padding: 20px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+.banner_container1 p{
+padding-bottom: 50px;
+text-align: center;
+}
+
+
+/* ============footer================= */
+
+
+
+.footer_design {
+    padding: 40px 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.copyright_text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color:#F15412;
+    margin-bottom: 0;
+}
